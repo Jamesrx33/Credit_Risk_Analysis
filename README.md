@@ -21,9 +21,9 @@ This report is designed to determine the Credit Card Risk of individuals based o
    <img width="700" height="250" src="https://github.com/Jamesrx33/Credit_Risk_Analysis/blob/main/Resources/Images/ROC_Table.png?raw=true">
 </p>
 
-1. **Balanced Accuracy Score:** There are 90,398 employees soon to retire.
-2. **Precision:** 68.8% of these retirees are in a leadership position (Senior Engineer, Senior Staff, Technique Leader, Maanger)
-3. **Recall:** Two of the nine Department Managers at Pewlett Hackard are soon to retire.
+1. **Balanced Accuracy Score:** The balanced accuracy score of the RandomOverSampling model was 0.65
+2. **Precision:** The precision was .01 and 1.0 for High and Low risk respectively
+3. **Recall:** The recall was .69 and .60 for High and Low risk respectively
 
 ---
 ## **<p align="center">Results - SMOTE</p>**
@@ -40,9 +40,9 @@ This report is designed to determine the Credit Card Risk of individuals based o
    <img width="700" height="250" src="https://github.com/Jamesrx33/Credit_Risk_Analysis/blob/main/Resources/Images/SMOTE_Table.png?raw=true">
 </p>
 
-1. **Balanced Accuracy Score:** There are 90,398 employees soon to retire.
-2. **Precision:** 68.8% of these retirees are in a leadership position (Senior Engineer, Senior Staff, Technique Leader, Maanger)
-3. **Recall:** Two of the nine Department Managers at Pewlett Hackard are soon to retire.
+1. **Balanced Accuracy Score:** The balanced accuracy score of the SMOTE model was 0.66
+2. **Precision:** The precision was .01 and 1.0 for High and Low risk respectively
+3. **Recall:** The recall was .63 and .69 for High and Low risk respectively
 
 ---
 ## **<p align="center">Results - ClusterCentroids</p>**
@@ -59,10 +59,9 @@ This report is designed to determine the Credit Card Risk of individuals based o
    <img width="700" height="250" src="https://github.com/Jamesrx33/Credit_Risk_Analysis/blob/main/Resources/Images/CC_Table.png?raw=true">
 </p>
 
-1. **Balanced Accuracy Score:** There are 90,398 employees soon to retire.
-2. **Precision:** 68.8% of these retirees are in a leadership position (Senior Engineer, Senior Staff, Technique Leader, Maanger)
-3. **Recall:** Two of the nine Department Managers at Pewlett Hackard are soon to retire.
-
+1. **Balanced Accuracy Score:** The balanced accuracy score of the ClusterCentroids model was 0.54
+2. **Precision:** The precision was .01 and 1.0 for High and Low risk respectively
+3. **Recall:** The recall was .69 and .40 for High and Low risk respectively
 ---
 ## **<p align="center">Results - SMOTEENN</p>**
 ---
@@ -78,10 +77,9 @@ This report is designed to determine the Credit Card Risk of individuals based o
    <img width="700" height="250"src="https://github.com/Jamesrx33/Credit_Risk_Analysis/blob/main/Resources/Images/SMOTEENN_Table.png?raw=true">
 </p>
 
-1. **Balanced Accuracy Score:** There are 90,398 employees soon to retire.
-2. **Precision:** 68.8% of these retirees are in a leadership position (Senior Engineer, Senior Staff, Technique Leader, Maanger)
-3. **Recall:** Two of the nine Department Managers at Pewlett Hackard are soon to retire.
-
+1. **Balanced Accuracy Score:** The balanced accuracy score of the SMOTEENN model was 0.66
+2. **Precision:** The precision was .01 and 1.0 for High and Low risk respectively
+3. **Recall:** The recall was .75 and .58 for High and Low risk respectively
 ---
 ## **<p align="center">Results - BalancedRandomForestClassifier</p>**
 ---
@@ -97,10 +95,9 @@ This report is designed to determine the Credit Card Risk of individuals based o
    <img width="700" height="250" src="https://github.com/Jamesrx33/Credit_Risk_Analysis/blob/main/Resources/Images/BRFC_Table.png?raw=true">
 </p>
 
-1. **Balanced Accuracy Score:** There are 90,398 employees soon to retire.
-2. **Precision:** 68.8% of these retirees are in a leadership position (Senior Engineer, Senior Staff, Technique Leader, Maanger)
-3. **Recall:** Two of the nine Department Managers at Pewlett Hackard are soon to retire.
-
+1. **Balanced Accuracy Score:** The balanced accuracy score of the BalancedRandomForestClassifier model was 0.79
+2. **Precision:** The precision was .03 and 1.0 for High and Low risk respectively
+3. **Recall:** The recall was .70 and .87 for High and Low risk respectively
 ---
 ## **<p align="center">Results - EasyEnsembleClassifier</p>**
 ---
@@ -116,10 +113,9 @@ This report is designed to determine the Credit Card Risk of individuals based o
    <img width="700" height="250" src="https://github.com/Jamesrx33/Credit_Risk_Analysis/blob/main/Resources/Images/EEC_Table.png?raw=true">
 </p>
 
-1. **Balanced Accuracy Score:** There are 90,398 employees soon to retire.
-2. **Precision:** 68.8% of these retirees are in a leadership position (Senior Engineer, Senior Staff, Technique Leader, Maanger)
-3. **Recall:** Two of the nine Department Managers at Pewlett Hackard are soon to retire.
-
+1. **Balanced Accuracy Score:** The balanced accuracy score of the EasyEnsembleClassifier model was 0.92
+2. **Precision:** The precision was .05 and 1.0 for High and Low risk respectively
+3. **Recall:** The recall was .93 and .90 for High and Low risk respectively
 ---
 ## Summary
 ---
