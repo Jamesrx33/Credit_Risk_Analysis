@@ -120,22 +120,8 @@ This report is designed to determine the Credit Card Risk of individuals based o
 ## Summary
 ---
 
-1. **Roles that need to be filled:** Within the next five years, there will be an employee deficit of 90,398 individuals.
-   - It is recommended that Pewlett Hackard aim to hire 18,080 employees each year for the following five years to accommodate these changes.
-2. **Mentorship Deficit:** As seen in the table below, there is a significant deficit in the number of available mentors vs the number of retirees (and requisite new hires) in every department.
-    - Additional parameters (I.E. employees born from 1965-1968) for qualified mentors should be considered to bridge these gaps.
-
-<p align="center">
-   <img width="800" height="400" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Retirement_vs_Mentors.png?raw=true">
-</p>
-
-3. **Suggested Additional Analysis:** Replacements need to be found for the two retiring department managers. The following querys will compile a list of current employees, their title and department. These can be used to select a replacement manager for the departments losing one.
-
-<p align="center">
-   <img width="800" height="800" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Query%20Suggestions.png?raw=true">
-</p>
-
+In all of our models, the level of precision in reference to High Risk applicants was very poor. We did see a marked imporvement in recall, however, when the Ensemble models were applied to our data. When considering a Credit Card application, Precision would be more important than recall because we want to correctly identify all High Risk applicants. All of our models have a precision of .03 or less in regards to High Risk applicants. Considering this, we are of the opinion that none of these models would be advantageous to use when trying to predict credit risk in an applicant. 
 
 ---
 
-## Reference Documentation - [Source Code Repository](https://github.com/Jamesrx33/Pewlett-Hackard-Analysis), [Download .zip file](https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/archive/refs/heads/main.zip)
+## Reference Documentation - [Source Code Repository](https://github.com/Jamesrx33/Credit_Risk_Analysis), [Download .zip file](https://github.com/Jamesrx33/Credit_Risk_Analysis/archive/refs/heads/main.zip)
