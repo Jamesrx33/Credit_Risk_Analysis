@@ -4,7 +4,7 @@
 
 ---
 ## Overview
-This report is designed to determine the Credit Card Risk of individuals based on a dataset provided by LendingClub. The data is unbalanced considering the fact that most applicants are considered low-risk (<1%). In order to account for this and provide the best Machine Learning algorithym we have tested over, under and combinatory sampling. The results of our analysis are below, followed by a summary and our suggested model to adopt for this problem.
+This report is designed to determine the Credit Card Risk of individuals based on a dataset provided by LendingClub. The data is unbalanced considering the fact that most applicants are considered low-risk (<1% high_risk). In order to account for this and provide the best Machine Learning algorithym we have tested over, under and combinatory sampling. The results of our analysis are below, followed by a summary and our suggested model to adopt for this problem.
 
 ---
 ## **<p align="center">Results - RandomOverSampler</p>**
